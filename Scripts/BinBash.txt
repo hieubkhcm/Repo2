@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#Declare Variables
+
+a=b
+b=c
+c=d
+
+#Functions.
+
+funtion1() {
+
+	local VAR=1 
+	Commands
+	return #Optional command exits a function but not the scripts
+}
+
+funtion2() {
+	local VAR=1
+	commands
+	exit 1 #exit the whole scripts
+} 
+
+
+

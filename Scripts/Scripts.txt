@@ -1,0 +1,5 @@
+if [ test fot somthing ]; then
+	run command
+else
+
+fi 
